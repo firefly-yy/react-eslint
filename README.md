@@ -72,7 +72,6 @@
 或者    
 ```
 npm run lint:fix
-
 ```
 
 
