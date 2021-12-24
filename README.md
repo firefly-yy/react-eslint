@@ -64,6 +64,10 @@
 	"scripts": { 
 	    "lint": "eslint \"src/**/*.{js,jsx}\"", 
 	    "lint:fix": "eslint \"src/**/*.{js,jsx }\" --fix" 
-	},
-	
+	},	
+“lint”命令将在“src/”目录的每个文件中通过正则表达式递归向下地运行 ESLint；如果 ESLint 报告了一些可以自动修复的问题，那么“lint:fix”命令将执行这些自动修复。
 
+### 6. 启动eslint进行代码规范检查
+	npm run lint   
+or
+	npm run lint:fix
