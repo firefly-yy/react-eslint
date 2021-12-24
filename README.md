@@ -69,7 +69,10 @@
 
 ### 6. 启动eslint进行代码规范检查
 	npm run lint   
-or    
-	npm run lint:fix
+或者    
+```
+npm run lint:fix
+
+```
 
 
