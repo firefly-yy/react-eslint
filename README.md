@@ -60,5 +60,10 @@
 	"warn"或1：使用规则作为警告   
 
 	"error"或2：使用规则作为错误   
-
+### 5. 在package.json中配置启动脚本
+	"scripts": { 
+	    "lint": "eslint \"src/**/*.{js,jsx}\"", 
+	    "lint:fix": "eslint \"src/**/*.{js,jsx }\" --fix" 
+	},
+	
 
