@@ -69,5 +69,7 @@
 
 ### 6. 启动eslint进行代码规范检查
 	npm run lint   
-or  
+or    
 	npm run lint:fix
+
+
